@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ background: url(./img/ivana-cajina-asuyh-_ZX54-unsplash.jpg) center;
+}
+.wrapper {
+	display: flex;
+}
+.tardis {
+	margin: 0 auto;
+	position: relative;
+}
+/*Ligter*/
+.lighter {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.main__lighter {
+	margin: 50px auto 0;
+	display: block;
+	height: 60px;
+	width: 40px;
+	background: #0A0251;
+	border-radius: 10px 10px 0 0;
+	position: relative;
+	box-shadow:inset 0 -5px 5px #010242 ;
+}
+.main__lighter span {
+	position: absolute;
+	display: block;
+	background: #F5F981;
+	width: 12px;
+	height: 12px;
+	box-shadow: 1px 1px 5px rgba(250, 252, 166, 0.7);
+}
+.l6 {
+	right: 5px;
+	bottom: 5px;
+}
+.l5 {
+	left: 5px;
+	bottom: 5px;
+}
+.l4 {
+	right: 5px;
+	bottom: 22px;
+}
+.l3 {
+	left: 5px;
+	bottom: 22px;
+}
+.l2 {
+	right: 5px;
+	bottom: 39px;
+}
+.l1 {
+	left: 5px;
+	bottom: 39px;
+}
+/*Roof*/
+.roof {
+	display: flex;
+	justify-content: center;
+}
+.roof1 {
+	margin: 0 auto;
+	display: block;
+	background: #0A0251;
+	width: 400px;
+	height: 30px;
+	box-shadow:inset 0 -5px 5px #010242 ;
+}
+.roof2 {
+	margin: 0 auto;
+	display: block;
+	background: #0A0251;
+	width: 450px;
+	height: 40px;
+	box-shadow:inset 0 -5px 5px #010242 ;
+}
+/*Body*/
+.tardis__body {
+	justify-content: center;
+	display: flex;
+}
+.body__items {
+	margin: 0 auto;
+	width: 500px;
+	height: 800px;
+	background: #0A0251;
+	padding: 5px 10px;
+	box-shadow:inset 0 -5px 5px #010242 ;
+	position: relative;
+}
+.title {
+	width: 400px;
+	height: 40px;
+	background: #1D1D1E;
+	padding: 0 50px;
+	margin: 0 auto;
+	color: #ECECF5;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 40px;
+}
+.p__call {
+	display: block;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 15px;
+	max-width: 60px;
+}
+/*Sections*/
+.tardis__sections{
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	height: 755px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	position: relative;
+	background: #0A0251;
+	border: 1px solid #010242;
+	box-shadow:inset 0 -5px 5px #010242 ;
+}
+.section {
+	display: block;
+	position: absolute;
+	width: 155px;
+	height: 170px;
+	border:1px solid #010242;
+	box-shadow: inset 3px 3px 5px #02033B;
+}
+.section4 {
+	top: 200px;
+	right: 20px;
+	cursor: pointer;
+}
+.section5 {
+	top: 390px;
+	left: 20px;
+}
+.section6 {
+	top: 390px;
+	right: 20px;
+}
+.section7 {
+	top: 580px;
+	left: 20px;
+}
+.section8 {
+	top: 580px;
+	right: 20px;
+}
+.window1 {
+	top: 10px;
+	left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.window1 span{
+	display: block;
+	background: #F5F981;
+	width: 46px;
+	height: 80px;
+	margin: 2px;
+	box-shadow: 1px 1px 5px rgba(250, 252, 166, 0.7);
+}
+.window1:hover span{
+	background: #FAF307;
+}
+.window2:hover span{
+	background: #FAF307;
+}
+.window2 {
+	top: 10px;
+	right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.window2 span{
+	display: block;
+	background: #F5F981;
+	width: 46px;
+	height: 80px;
+	box-shadow: 1px 1px 5px rgba(250, 252, 166, 0.7);
+}
+.poster {
+	top: 200px;
+	left: 20px;
+	box-shadow: inset 3px 3px 5px #02033B;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.furniture span {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #CDAF06;
+	z-index: 4;
+	display: block;
+	position: absolute;
+	top: 370px;
+	right: 178px;
+}
+.text__one {
+	width: 150px;
+	height: 50px;
+	background: #F5F3EC;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	border-radius: 10px;
+	position: relative;
+	top: 300px;
+	left: 300px;
+}
+.text__one::before{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid  transparent;
+	border-right: 10px solid #F5F3EC;
+	top: 10px;
+	left: -30px;
+}
+.text__one p{
+	margin: 0 auto;
+}
+/*Footer*/
+.tardis__footer{
+	width: 530px;
+	height: 60px;
+	display: block;
+	background: #0A0251;
+	margin: 0 auto;
+	box-shadow: inset 2px 2px 5px #0A0251;
+	margin-bottom: 50px;
+}
+
+
+
+
